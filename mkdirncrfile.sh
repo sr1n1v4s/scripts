@@ -7,6 +7,7 @@ myfun()
 	touch srinivas .srinivas
 	echo "Name = Srinivas" > srinivas
 	pwd >> srinivas
+	ls -l >> srinivas
 	cat srinivas > .srinivas
 }
 
